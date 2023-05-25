@@ -81,8 +81,8 @@ contract LearnVariables {
 //     // Public, Private, Internal, External
 //     // Public: can be accessed from within the contract or externally
 //     // Private: can only be accessed from within the contract
-//     // Internal: can be accessed from within the contract or contracts deriving from it
-//     // External: can only be accessed from contracts deriving from the contract
+//     // Internal: can be accessed from within the contract or contracts deriving or inheriting from the contract
+//     // External: can only be accessed from contracts deriving or inheriting from the contract
 
 //     // Constant and Immutable
 //     // Constant: value is known at compile time
@@ -107,5 +107,5 @@ contract LearnVariables {
 
 //     // Gas
 //     // Gas is a unit that measures the amount of computational effort that it will take to execute certain operations.
-//     // Gas is used to pay   for the computational effort that it will take to execute certain operations.
+//     // Gas is used to pay for the computational effort that it will take to execute certain operations.
 // }
