@@ -5,8 +5,7 @@ contract LearnStrings {
     // Strings are used to store text. They are ordered collection of characters. They are enclosed in double quotes ("") or single quotes ('').
 
     string greeting = "Hello!";
-    string public hello1 = "Hello how're you!";
-    string public hello2 = "Hello how're you!";
+    string public hello = "Hello how're you!";
 
     function sayHello() public view returns (string memory) {
         return greeting;
@@ -32,7 +31,15 @@ contract LearnStrings {
 
     // A function to return the length of the string
     function getCharCount() public view returns (uint) {
-        bytes memory stringToBytes = bytes(greeting); // convert string to bytes to get the length
+        bytes memory stringToBytes = bytes(greeting); // convert string to bytyoues to get the length
         return stringToBytes.length;
+    }
+
+    // A function to concatenate two strings and return the concatenated string space separated
+    function concateStrs(
+        string memory _str1,
+        string memory _str2
+    ) public pure returns (string memory) {
+        return string(abi.encodePacked(_str1, " ", _str2));
     }
 }
