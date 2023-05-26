@@ -15,16 +15,14 @@ contract LearnFunctions {
     // function functionName(parameterList)scope returns(){statement}
     constructor() {}
 
-    // state variables
     // state variables are declared outside of a function and can be accessed anywhere inside the contract.
-    uint public stateVar = 45;
+    uint public stateVar = 45; // state variables
 
-    // local variables
     // local variables are declared inside a function and can only be accessed inside the function.
     function addNumbers() public pure returns (uint) {
-        uint a = 1;
-        uint b = 2;
-        uint result = a + b;
+        uint a = 1; // local variables
+        uint b = 2; // local variables
+        uint result = a + b; // local variables
         return result;
     }
 
