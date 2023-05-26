@@ -11,7 +11,6 @@ pragma solidity >=0.7.0 <0.9.0;
 // Bitwise Operators: &, |, ^, ~, <<, >>
 
 contract LogicalOperators {
-    // Logical Operators
     uint a = 4;
     uint b = 5;
 
