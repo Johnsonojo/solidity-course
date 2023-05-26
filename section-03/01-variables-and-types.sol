@@ -28,84 +28,13 @@ contract LearnVariables {
 
     // Exercise
     // 1. Create a new variable called wallet as an integer
-    // 4. Initialize the wallet to 500
-    uint wallet = 500;
     // 2. Create a boolean called spend
-    // 5. Set the value of spend to false
-    bool spend = false;
     // 3. Create a string and give it a name notifySpend
+    // 4. Initialize the wallet to 500
+    // 5. Set the value of spend to false
     // 6. Add the string literal (the string value) "you have spent money" to notifySpend
+
+    uint wallet = 500;
+    bool spend = false;
     string notifySpend = "you have not spent money";
 }
-// contract LearnVariables {
-//     // State Variables
-//     uint public myUint = 1;
-//     bool public myBool = true;
-//     address public myAddress = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
-//     bytes32 public myBytes32 = "Hello World";
-//     string public myString = "Hello World";
-//     uint[] public myUintArray = [1, 2, 3];
-//     uint[10] public myFixedSizedArray;
-//     enum State {
-//         Waiting,
-//         Ready,
-//         Active
-//     }
-//     State public state;
-
-//     // Local Variables
-//     function getValue() public pure returns (uint) {
-//         uint value = 1;
-//         return value;
-//     }
-
-//     // Function Parameters
-//     function getValue(uint value) public pure returns (uint) {
-//         return value;
-//     }
-
-//     // Value Types
-//     // bool
-//     // uint
-//     // int
-//     // address
-//     // bytes
-//     // fixed-size arrays
-
-//     // Reference Types
-//     // strings
-//     // arrays
-//     // mappings
-//     // structs
-
-//     // Public, Private, Internal, External
-//     // Public: can be accessed from within the contract or externally
-//     // Private: can only be accessed from within the contract
-//     // Internal: can be accessed from within the contract or contracts deriving or inheriting from the contract
-//     // External: can only be accessed from contracts deriving or inheriting from the contract
-
-//     // Constant and Immutable
-//     // Constant: value is known at compile time
-//     // Immutable: value is known at run time
-
-//     // Storage, Memory, Calldata
-//     // Storage: variable is stored permanently in the blockchain
-//     // Memory: variable is stored temporarily in memory
-//     // Calldata: special data location that contains function arguments
-
-//     // Payable and Non-Payable
-//     // Payable: can receive Ether
-//     // Non-Payable: cannot receive Ether
-
-//     // Abstract and Virtual
-//     // Abstract: can only be used as a base contract
-//     // Virtual: can be used as a base contract or inherited contract
-
-//     // Override and Overridable
-//     // Override: function must be overridden in the inherited contract
-//     // Overridable: function can be overridden in the inherited contract
-
-//     // Gas
-//     // Gas is a unit that measures the amount of computational effort that it will take to execute certain operations.
-//     // Gas is used to pay for the computational effort that it will take to execute certain operations.
-// }
