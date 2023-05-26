@@ -11,6 +11,7 @@ pragma solidity >=0.7.0 <0.9.0;
 // Another use case for nested mappings is allow one address to spend tokens on behalf of another address just like ERC20 tokens.
 // ex. mapping(key => mapping(key2 => value2)) allowances;
 // mapping(address => mapping(address => uint)) public allowances;
+
 contract LearnNestedMapping {
     struct Movie {
         string title;
