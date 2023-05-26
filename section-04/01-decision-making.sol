@@ -29,7 +29,6 @@ contract DecisionMaking {
     }
 
     // VARIABLE SCOPE - Functions & Variables
-
     // Private: Only available to the contract, meaning it cannot be accessed outside of the contract.
     // Internal: Only available to the contract and any contracts that inherit from it.
     // External: Only available to external contracts and functions.
