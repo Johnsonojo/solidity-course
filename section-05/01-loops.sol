@@ -10,7 +10,6 @@ contract LoopContract {
     uint[] public numbersList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
     // create a function that can check if two numbers are divisible by each other - or they are multiples of each other.
-
     function checkMultiples(uint _num1, uint _num2) public pure returns (bool) {
         if (_num1 % _num2 == 0) {
             return true;
